@@ -11,7 +11,7 @@ import Project4 from './components/Project4/Project4';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router basename='josh-k-dev.com'>
+  <Router basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path='/' element={<App />}/>
       <Route path='/impressum' element={<Impressum />}/>
