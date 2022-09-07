@@ -1,0 +1,127 @@
+.project4 {
+    min-height: 100vh;
+    max-width: 100%;
+    background-color: #333;
+    position: relative;
+    padding-bottom: 5rem;
+
+}
+
+.back-button {
+    font-size: 60px;
+    color: #fff;
+    background-color: #243d69;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.back-button:hover {
+    background: #fff;
+    color: #0d3611;
+    border: 2px solid #243d69;
+}
+
+.back-button-wrapper {
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.project4 button {
+    background-color: transparent;
+    border: none;
+}
+
+.project4-img {
+    width: 800px;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.project4-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 4rem;
+    background-color: #3c598c;
+    border-radius: 15px;
+    padding: 4rem;
+ 
+}
+
+.project4-info h1 {
+    color: #e6edf9;
+    text-decoration: underline;
+    padding-bottom: 2rem;
+}
+
+.project4-info h2{
+    color: #e6edf9;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.project4-info p {
+    color: #e6edf9;
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+
+.project4-info ul {
+    padding-left: 2rem;
+    line-height: 28px;
+    padding-bottom: 1rem;
+}
+
+.project4-info ul li {
+    color: #e6edf9;
+    font-size: 18px;
+}
+
+@media all and (max-width: 1000px) {
+    .project4-info {
+       margin: 0rem 3rem;
+       padding: 3rem;
+     
+    }
+}
+
+@media all and (max-width: 800px) {
+    .project4-info {
+        padding: 2rem;
+    }
+
+    .project4-info h1 {
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .project4-info {
+        padding: 1rem;
+        margin: 0rem 2rem;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .project4-info {
+        margin: 0rem 1rem;
+    }
+
+    .project4-info h1 {
+        font-size: 28px;
+    }
+
+    .project4-info h2 {
+        font-size: 20px;
+    }
+
+    
+}
+

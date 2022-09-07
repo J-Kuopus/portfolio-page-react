@@ -1,0 +1,249 @@
+.about {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rem 3rem;
+}
+
+.about__img img {
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 6px 10px 8px#3c598c;
+}
+
+.about__text {
+    color: #e6edf9; 
+    font-size: 18px;
+    width: 60%;
+    line-height: 28px;
+    border: 2px solid #3c598c;
+    border-radius: 15px;
+    padding: 2rem;
+   
+}
+
+.about__text h1 {
+    color:#009fd9;
+    padding-bottom: 2rem;
+} 
+
+.link-buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cv-button,
+.gh-button,
+.c-button {
+    padding: 12px 35px;
+    margin-right: 2rem;
+    border: 1px solid #e6edf9;
+    outline: none;
+    color: #e6edf9;
+    background: #243d69;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.cv-button:before, 
+.gh-button:before,
+.c-button:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 10s linear infinite;
+    opacity: 0;
+    transition: opacity .1s ease-in-out;
+    border-radius: 10px;
+}
+
+.cv-button:active, 
+.gh-button:active,
+.c-button:active {
+    color: #243d69;
+}
+
+.cv-button:active:after, 
+.gh-button:active:after,
+.c-button:active:after {
+    background: transparent;
+}
+
+.cv-button:hover:before, 
+.gh-button:hover:before,
+.c-button:hover:before {
+    opacity: 1;
+}
+
+.cv-button:after, 
+.gh-button:after,
+.c-button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #243d69;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+@media all and (max-width: 1470px) {
+    .about__text {
+        width: 55%;
+        padding: 1.5rem;
+    }
+
+    .about__text h1 {
+        font-size: 32px;
+    }
+
+    .about__container {
+        margin: 8rem 3rem;
+    }
+
+    .about__img {
+        padding-bottom: 3rem;
+    }
+
+    .about__img img {
+        width: 470px;
+    }
+}
+
+@media all and (max-width: 1260px) {
+    .about__img {
+        padding-bottom: 4rem;
+    }
+
+    .about__container {
+        margin: 8rem 2rem;
+    }
+}
+
+
+@media all and (max-width: 1225px) {
+    .about__img img {
+        width: 440px;
+    }
+
+    .about__img {
+        padding-bottom: 4rem;
+    }
+
+    .about__container {
+        margin: 8rem 2rem;
+    }
+
+    .about__text {
+        font-size: 17px;
+    }
+
+    .about__text h1 {
+        font-size: 28px;
+        padding-bottom: 1rem;
+    }
+
+    .cv-button,
+    .gh-button,
+    .c-button {
+        padding: 10px 30px;
+    }
+}
+
+@media all and (max-width: 1150px) {
+    .about__container {
+        flex-direction: column-reverse;
+    }
+
+    .about__text {
+        width: 95%;
+        font-size: 17px;
+        line-height: 26px;
+        padding: 1rem;
+        border: none;
+    }
+
+    .about__container {
+        margin: 6rem 0rem;
+    }
+
+    .about__img {
+        padding-bottom: 0rem;
+        padding-top: 2rem;
+    }
+
+    .about__img img {
+        width: 280px;
+    }
+
+}
+
+ @media all and (max-width: 850px) {
+    .about__container {
+        margin: 5.5rem 0.5rem;
+    }
+
+    .about__text {
+        padding-top: 1rem;
+    }
+
+} 
+
+@media all and (max-width:560px) {
+    .p2,
+    .c-button,
+    .xtra-skills {
+        display: none;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .about__img {
+        padding-top: 1rem;
+    }
+
+    .p1 {
+        display: none;
+    }
+}
+
+@media all and (max-width: 390px) {
+    .about__img img {
+        width: 260px;
+    }
+
+    .about__container {
+        margin: 4.5rem 0.2rem;
+    }
+}

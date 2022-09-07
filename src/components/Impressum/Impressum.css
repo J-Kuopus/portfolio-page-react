@@ -1,0 +1,48 @@
+
+.impressum {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.impressum-text a {
+    color: #fff;
+}
+
+.impressum-text {
+    padding: 18px;
+}
+
+.back-button {
+    font-size: 60px;
+    color: #fff;
+    background-color: #243d69;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.back-button:hover {
+    background: #fff;
+    color: #0d3611;
+    border: 2px solid #243d69;
+}
+
+.back-button-wrapper {
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.impressum button {
+    background-color: transparent;
+    border: none;
+}

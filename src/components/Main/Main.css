@@ -1,0 +1,265 @@
+.main {
+    min-height: 100vh;
+    max-width: 100%;
+    background-color: #333;
+    position: relative;
+    background-image: url('../assets/Beach-comp.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.main__container {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main__content {
+    margin-left: 3.445rem;
+}
+
+.main__img {
+    padding-top: 4rem;
+    padding-right: 4rem;
+}
+ 
+.text {
+    color: #e6edf9;
+    line-height: 55px;
+}
+
+.text p {
+    font-size: 22px;
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.icons {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    margin-top: 1rem;
+    margin-right: 1.4rem;
+    font-size: 40px;
+    cursor: pointer;
+    color:#e6edf9;
+}
+
+.icon:hover {
+    color: #34a7df;
+    box-shadow: 2px 2px 15px #34a7df;
+}
+
+.work-button,
+.contact-button {
+    padding: 12px 35px;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    border: 1px solid #e6edf9;
+    outline: none;
+    color: #e6edf9;
+    background: #243d69;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.work-button:before, .contact-button:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 10s linear infinite;
+    opacity: 0;
+    transition: opacity .1s ease-in-out;
+    border-radius: 10px;
+}
+
+.work-button:active, .contact-button:active {
+    color: #243d69;
+}
+
+.work-button:active:after, .contact-button:active:after {
+    background: transparent;
+}
+
+.work-button:hover:before, .contact-button:hover:before {
+    opacity: 1;
+}
+
+.work-button:after, .contact-button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #243d69;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+@media all and (max-width: 1250px) {
+    .main__img {
+        padding-top: 3rem;
+    }
+
+} 
+
+@media (max-width: 1100px) {
+    .text {
+        line-height: 45px;
+        white-space: nowrap;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+
+    .text h1 {
+        font-size: 38px;
+    }
+
+    .icons .icon{
+        font-size: 35px;
+    }
+
+    .main__img {
+        padding-right: 2.5rem;
+        padding-top: 2rem;
+    }
+
+    .icons {
+        margin-bottom: 1rem;
+    }
+
+    .work-button,
+    .contact-button {
+        padding: 12px 30px;
+        font-size: 16px;
+ }
+}
+
+ @media (max-width: 850px) {
+    .main__content {
+        margin-left: 0;
+    }
+
+    .main__container {
+        text-align: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+  
+    .main__img {
+        padding-right: 0rem;
+        margin-top: 6rem;
+    }
+
+    .text {
+        line-height: 40px;
+    }
+
+    .text h1 {
+        font-size: 34px;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+
+    .icons {
+       margin-left: 4.2rem;
+    }
+
+    .icon {
+        font-size: 45px;
+    }
+
+    .buttons {
+        margin-left: 1rem;
+    }
+
+    .work-button,
+    .contact-button {
+        padding: 12px 24px;
+    }
+
+ }
+
+ @media all and (max-width: 500px) {
+    .main__img {
+        margin-top: 5rem;
+        padding-bottom: 1rem;
+    }
+ }
+
+ @media (max-width: 450px) {
+    .work-button,
+    .contact-button {
+        padding: 8px 22px;
+        font-size: 14px;
+    }
+
+    .icons {
+        margin-left: 3.3rem;
+     }
+ }
+
+ @media all and (max-width: 350px) {
+    .main__img {
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .text {
+        line-height: 36px;
+    }
+
+    .text h1 {
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 18px;
+    }
+
+    .work-button,
+    .contact-button {
+        padding: 8px 18px;
+        font-size: 16px;
+ }
+
+}
+ 
+ @media (max-width: 335px) {
+    .buttons button {
+        padding: 6px 18px;
+    }
+ }

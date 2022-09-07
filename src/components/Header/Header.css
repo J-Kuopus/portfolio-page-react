@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+:root {
+    --darkGray: #333;
+    --white: #fff;
+    --offwhite: #e6edf9;
+    --black: #000;
+    --darkGreen: #0d3611;
+    --steelBlue: #3c598c;
+    --steelBlue2: #243d69;
+     --lightBlue: #34a7df; 
+    
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: #243d69;
+    padding: 10px;
+    border-bottom: 4px solid #0f1a2e;
+}
+
+.header__logo {
+    margin-left: 2.8rem;
+}
+
+.header__logo h1 {
+    font-family: 'Metal Mania', cursive;
+    font-size: 45px;
+}
+
+.brand {
+    color: var(--offwhite);
+    text-decoration: none;
+}
+
+.navbar {
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+   /*  transition: all .35s ease; */
+   /*  transition: background-color .25s, box-shadow .15s; */
+}
+
+nav ul li {
+    list-style: outside none none;
+    margin: 1rem;
+    padding: 0;
+    font-size: 22px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--offwhite);
+}
+
+nav ul li a:hover {
+    color: var(--lightBlue); 
+    box-shadow: 2px 2px 15px var(--lightBlue);
+    transition: all .35s ease;
+}
+
+/* .pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+} */
+
+.changer {
+    display: flex;
+    margin-right: 1.555rem;
+    color: var(--white);
+}
+
+.menu {
+    cursor: pointer;
+    display: none;
+    font-size: 30px;
+}
+
+.close {
+    display: none;
+    font-size: 25px;
+}
+
+@media (max-width: 850px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        inset: 0;
+        background: #243d69;
+        color: #fff;
+    }
+
+    nav ul {
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    nav ul li {
+        margin-block: 2rem;
+    }
+
+    nav ul li a {
+        font-size: 28px;
+        color: var(--white);
+        font-weight: bolder;
+        border-bottom: 1px solid #fff;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .close {
+        display: block;
+    }
+
+    .header__logo{
+        margin-left: 2rem;
+    }
+}
+
+@media all and (max-width:450px) {
+    .header__logo{
+        margin-left: 1rem;
+    }
+
+    .header__logo h1 {
+        font-size: 36px;
+    }
+}
