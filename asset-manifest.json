@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio-page-react/static/css/main.793e0b36.css",
+    "main.js": "/portfolio-page-react/static/js/main.21dc1d56.js",
+    "static/media/river5.jpg": "/portfolio-page-react/static/media/river5.70784c42b7fd79a77209.jpg",
+    "static/media/msa2-comp.jpg": "/portfolio-page-react/static/media/msa2-comp.9955949b3507521f3de1.jpg",
+    "static/media/msa1-comp.jpg": "/portfolio-page-react/static/media/msa1-comp.58a640408d36c76644d9.jpg",
+    "static/media/Pokedex1.jpg": "/portfolio-page-react/static/media/Pokedex1.e442e04b99ffc5005a69.jpg",
+    "static/media/Beach-comp.jpg": "/portfolio-page-react/static/media/Beach-comp.b7887b08163d363407db.jpg",
+    "static/media/Meet-app1.jpg": "/portfolio-page-react/static/media/Meet-app1.a556309ba1b7ab5c386d.jpg",
+    "static/media/Chat-app-mix.jpg": "/portfolio-page-react/static/media/Chat-app-mix.1560bc928f3300da0c1e.jpg",
+    "static/media/msa1-sm.jpg": "/portfolio-page-react/static/media/msa1-sm.5be37c0128842ff34aef.jpg",
+    "static/media/poke-sm.jpg": "/portfolio-page-react/static/media/poke-sm.c6904dd8d30d7f2b1fe4.jpg",
+    "static/media/chat-sm.jpg": "/portfolio-page-react/static/media/chat-sm.d5d01eedd087b83472e1.jpg",
+    "static/media/meet-sm.jpg": "/portfolio-page-react/static/media/meet-sm.cb25b6e6f0b9c0fd54de.jpg",
+    "index.html": "/portfolio-page-react/index.html",
+    "main.793e0b36.css.map": "/portfolio-page-react/static/css/main.793e0b36.css.map",
+    "main.21dc1d56.js.map": "/portfolio-page-react/static/js/main.21dc1d56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.793e0b36.css",
+    "static/js/main.21dc1d56.js"
+  ]
+}
