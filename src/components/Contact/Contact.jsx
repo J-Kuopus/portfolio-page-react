@@ -35,7 +35,6 @@ const Contact = () => {
               <input type='text' placeholder='Email' name='user_email' aria-label='email' />
               <input className= 'message' type='text' placeholder='Message' name='message' aria-label='message' />
               <button className='glow-on-hover'>Send</button>
-             {/*  {done && "Thanks for your message!"} */}
             </form>
       </div>
     </div>

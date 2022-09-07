@@ -29,8 +29,8 @@ const Project1 = () => {
             <li>Check out the live demo <a href='https://j-kuopus.github.io/movie_search_app/' style={{ color: '#e6edf9' }} rel='noreferrer' target='_blank' aria-label='website demo'>here</a></li>
             <li>See code on <a href='https://github.com/J-Kuopus/movie_search_app' style={{ color: '#e6edf9' }} rel='noreferrer' target='_blank' aria-label='github code'>GitHub</a></li>
           </ul>
-          <img className='project1-img' src={MSA1} alt='project 1 image' />
-          <img className='project1-img' src={MSA2} alt='project 1 image' />
+          <img className='project1-img' src={MSA1} alt='project 1' />
+          <img className='project1-img' src={MSA2} alt='project 1' />
           <h2>Description</h2>
           <p>The goal of this project was to create a simple movie database search application.</p>
           <h2>Key Features</h2>
