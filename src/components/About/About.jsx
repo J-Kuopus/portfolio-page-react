@@ -33,7 +33,7 @@ const About = () => {
                  <br/>
                  <div className='link-buttons'>
                      <a className='cv-button' 
-                        href='' 
+                        href='https://drive.google.com/file/d/1AZEou1V8u7grKZxfMdmFyROmPX8wHipt/view?usp=sharing' 
                         rel="noreferrer" 
                         target="_blank"
                         alt='my cv'>CV

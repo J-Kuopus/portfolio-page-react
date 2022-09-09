@@ -236,6 +236,10 @@
     .p1 {
         display: none;
     }
+
+    .about__text {
+        padding-top: 0rem;
+    }
 }
 
 @media all and (max-width: 390px) {
