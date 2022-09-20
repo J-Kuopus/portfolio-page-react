@@ -34,8 +34,6 @@ const Impressum = () => {
                 <br/>
                 <p><strong>Kontakt:</strong>
                 <br/>
-                    Telefon: 01575-8475985
-                    <br/>
                     E-Mail: 
                 <a href='mailto:kuopus79@gmail.com'>kuopus79@gmail.com</a>
                 <br/>
