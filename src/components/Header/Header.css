@@ -43,8 +43,6 @@
 
 nav ul {
     display: flex;
-   /*  transition: all .35s ease; */
-   /*  transition: background-color .25s, box-shadow .15s; */
 }
 
 nav ul li {
@@ -65,16 +63,6 @@ nav ul li a:hover {
     box-shadow: 2px 2px 15px var(--lightBlue);
     transition: all .35s ease;
 }
-
-/* .pulse:hover, 
-.pulse:focus {
-  animation: pulse 1s;
-  box-shadow: 0 0 0 2em rgba(#fff,0);
-}
-
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 var(--hover); }
-} */
 
 .changer {
     display: flex;
