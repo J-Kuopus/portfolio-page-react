@@ -16,7 +16,7 @@ const About = () => {
             <div className='about__text'>
               <h1>About Me</h1>
 
-              <p><strong>I love to code and create</strong>. I'm a junior full-stack web developer, living in Germany. <span className='p1'>After acquiring valuable managerial skills in the gastronomy field, I desired a new <strong>adventure</strong>. I've always had a <strong>passion</strong> for technology, web design, and 
+              <p><strong>I love to code and create</strong>. I'm a junior web developer, living in Germany. <span className='p1'>After acquiring valuable managerial skills in the gastronomy field, I desired a new <strong>adventure</strong>. I've always had a <strong>passion</strong> for technology, web design, and 
                 creativity, and this led me to successfully completing a Full-Stack Web Developer course where I learned frontend user 
                 interface design as well as backend server development.</span></p>
               <br/>
