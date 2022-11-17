@@ -14,7 +14,7 @@ const Contact = () => {
       <div className='inputs'>
             <h1>Contact Me</h1>
             <p>Give me a shout! Send me a message if you'd like to work with me.</p>
-            <form ref={formRef} onSubmit={handleSubmit}>
+            <form ref={formRef}>
               <input type='text' placeholder='Name' name='user_name' aria-label='name' />
               <input type='text' placeholder='Subject' name='user_subject'aria-label='subject'/>
               <input type='text' placeholder='Email' name='user_email' aria-label='email' />
