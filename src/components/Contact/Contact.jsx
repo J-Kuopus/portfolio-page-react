@@ -7,21 +7,6 @@ const Contact = () => {
     const formRef = useRef();
     const [ done, setDone ] = useState(false);
 
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      emailjs
-      .sendForm(
-          'service_aj33dml', 
-          'template_bzup5ap', 
-          formRef.current, 
-          'uNPZ6rqABPoulkkV3')
-      .then((result) => {
-          console.log(result.text);
-          setDone(true)
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
 
   return (
 

@@ -32,12 +32,6 @@ const About = () => {
                 and grow as a developer.</span> For more details about me you can check out my...</p>
                  <br/>
                  <div className='link-buttons'>
-                     <a className='cv-button' 
-                        href='https://drive.google.com/file/d/12Flu6T-muAVShl8tqlJoeTcd8hm6aTcB/view?usp=sharing' 
-                        rel="noreferrer" 
-                        target="_blank"
-                        alt='my cv'>CV
-                     </a>
                      <a className='gh-button' 
                         href='https://github.com/J-Kuopus' 
                         rel="noreferrer" 

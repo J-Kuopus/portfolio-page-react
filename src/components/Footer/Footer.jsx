@@ -8,12 +8,6 @@ const Footer = () => {
   return (
     <>
     <div className='footer'>
-      <a href='https://twitter.com/kuopus79' rel="noreferrer" target="_blank">
-        <FaTwitterSquare className='footer-icon' aria-label='link to Twitter page' />
-      </a>
-      <a href='https://www.linkedin.com/in/joshua-kuopus' rel="noreferrer" target="_blank">
-        <FaLinkedin className='footer-icon' aria-label='link to LinkedIn page' />
-      </a>
       <a href='https://github.com/J-Kuopus' rel="noreferrer" target="_blank">
         <FaGithubSquare className='footer-icon' aria-label='link to GitHub page' />
       </a>
